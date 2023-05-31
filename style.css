@@ -1,0 +1,229 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-color: #202124;
+}
+main{
+  display:flex;
+  justify-content: space-between;
+}
+
+.logo{
+  width: 100px;
+}
+
+.logo img{
+  width: 100%;
+  height: 100%;
+}
+
+aside{
+  width: 400px;
+  height: 100vh;
+  background-color: black;
+  border-right: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-size: 18px;
+}
+
+aside ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+aside a{
+  text-decoration: none;
+  color: gray;
+}
+
+nav{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.popular{
+  width: 400px;
+  height: 100vh;
+  background-color: black;
+  color: gray;
+  overlay: scroll;
+  text-align: center;
+  border-left: 1px solid gray;
+}
+
+.popular .movies{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  padding: 20px;
+}
+.popular .movie{
+  width: 100px;
+  height: 150px;
+  background-color: red;
+}
+
+.search input{
+  background-color: darkgray;
+  border: none;
+  height: 32px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.search input::placeholder{
+  color: white;
+  padding: 5px;
+}
+
+
+.profile{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT96faK9I4e1TXBzMu9ViByl16Trl1STjsf3w&usqp=CAU');
+  background-size: cover;
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  vertical-align: middle;
+  width: 100%;
+  height: 80px;
+}
+
+.middle-page{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.description{
+  background-image: url('https://a-static.besthdwallpaper.com/tokyo-ghoul-kaneki-ken-wallpaper-1280x960-95088_20.jpg');
+  background-size: cover;
+  width: 900px;
+  height: 500px;
+  border-radius: 20px;
+  margin-top: 50px;
+  color: white;
+  display: flex;
+  background-color: black;
+}
+
+
+
+.all{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  height: 100%;
+  padding: 24px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.54);
+  border-radius: 20px;
+}
+.title h1{
+  font-size: 54px;
+}
+
+.text{
+  width: 500px;
+  text-align: justify;
+}
+button{
+  width: 100px;
+  padding: 10px;
+  background-color: darkred;
+  border: none;
+  border-radius: 10px;
+  color: lightgray;
+  margin: 20px 0;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+button:before{
+  content: "▶";
+}
+.image-descrip{
+  display: flex;
+  height: 100%;
+  position: relative;
+  width: 50%;
+}
+
+.image-descrip img{
+  width: 100%;
+  height: 100%;
+}
+.description-top{
+  display: flex;
+  gap: 30px;
+}
+
+.season{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.stars{
+  width: 200px;
+}
+.stars img{
+  width: 100%;
+
+}
+.ongoing{
+  background-image: url('https://i.pinimg.com/originals/9f/b5/a1/9fb5a119a20c49d134a946c7d5b05716.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+  color: white;
+  padding: 10px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.on-movies{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.on-movie{
+  background-color: red;
+  width: 150px;
+}
+
