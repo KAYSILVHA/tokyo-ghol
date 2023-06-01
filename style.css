@@ -76,7 +76,6 @@ nav{
 .popular .movie{
   width: 100px;
   height: 150px;
-  background-color: red;
 }
 
 .search input{
@@ -92,6 +91,10 @@ nav{
   padding: 5px;
 }
 
+.movie img{
+  width: 100%;
+  height: 100%;
+}
 
 .profile{
   width: 40px;
@@ -158,7 +161,7 @@ nav{
 button{
   width: 100px;
   padding: 10px;
-  background-color: darkred;
+  background-color: red;
   border: none;
   border-radius: 10px;
   color: lightgray;
@@ -208,22 +211,33 @@ button:before{
   width: 100%;
   height: 300px;
   color: white;
-  padding: 10px;
   display:flex;
   flex-direction: column;
   justify-content: center;
+  gap: 20px;
+  padding: 20px;
 }
-
-.on-movies{
+.conteudo-on{
+  background-color: background-color: rgba(0, 0, 0, 0.54);
   width: 100%;
-  height: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.on-movies{
   display: flex;
   gap: 20px;
   justify-content: center;
+  align-items: center;
 }
 
 .on-movie{
-  background-color: red;
-  width: 150px;
+  width: 160px;
+  height: 200px;
 }
 
+.on-movie img{
+  width: 100%;
+  height: 100%;
+}
