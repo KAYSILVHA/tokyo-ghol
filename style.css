@@ -74,10 +74,24 @@ nav{
   padding: 20px;
 }
 .popular .movie{
-  width: 100px;
+  width: 100%;
   height: 150px;
+  display: flex;
+  align-items: center;
 }
 
+.popular .movie .image{
+  width: 100px
+}
+
+
+.movie img{
+  width: 100%;
+  height: 100%;
+}
+.popular .movie .name{
+  width: 200px
+}
 .search input{
   background-color: darkgray;
   border: none;
@@ -91,10 +105,6 @@ nav{
   padding: 5px;
 }
 
-.movie img{
-  width: 100%;
-  height: 100%;
-}
 
 .profile{
   width: 40px;
